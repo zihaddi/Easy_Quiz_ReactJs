@@ -10,7 +10,7 @@ const Topics = () => {
   
   return (
     <div>
-       {/* <img className='topic-logo' src={ima} alt="" /> */}
+       <img className='topic-logo' src={ima} alt="" />
        <p className='topic-p'>You can test your Programming skills with <span style={color}> Easy Quiz </span>Exercises.</p>
       <div  className='topics-container'>
       {
