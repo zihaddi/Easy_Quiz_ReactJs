@@ -1,0 +1,23 @@
+.header-design
+{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.header-design h3
+{
+  margin-left: 20px;
+  padding: 6px;
+  color: white;
+}
+.nav-design a
+{
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-size: small;
+  margin-right: 20px;
+}

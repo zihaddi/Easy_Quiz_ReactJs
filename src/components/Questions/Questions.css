@@ -1,0 +1,52 @@
+.question-box
+{
+  border: 1px solid red;
+  margin : 20px 150px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.options
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 10px 50px;
+}
+
+.options button
+{
+  margin: 20px;
+  border: none;
+  background-color: orangered;
+  border-radius: 9px;
+}
+
+.options button:hover
+{
+  background-color: orange;
+}
+
+.question-part
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:660px) {
+  .question-box
+{
+  border: 1px solid red;
+  margin : 10px 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.options
+{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: 10px 50px;
+}
+}
