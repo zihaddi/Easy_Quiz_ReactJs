@@ -9,7 +9,7 @@ const Statistics = () => {
   //console.log(a)
   return (
     <div>
-       <h3 className='chart-position'> <i>Chart for each quiz question</i> </h3>
+       {/* <h3 className='chart-position'> <i>Chart for each quiz question</i> </h3> */}
        <div  className='chart-position'>
        <LineChart width={500} height={400} data={data.data}>
        <XAxis dataKey="name" />
